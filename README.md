@@ -17,7 +17,7 @@ module "java" {
 }
 
 module "kotlin" {
-  source = "github.com/conn3xorg/circuit-kotlin?ref=v0.1.0"
+  source = "github.com/conn3xorg/circuit-kotlin?ref=v0.1.1"
 
   hosts                = { build1 = "203.0.113.10" }
   ssh_private_key_file = "~/.ssh/id_ed25519"
